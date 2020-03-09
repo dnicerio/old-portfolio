@@ -264,3 +264,17 @@ h2 > span {
         padding: 29vmax 0;
     }
 }
+
+/*for 768px landscape devices */
+
+@media (max-height: 769px) and (orientation: landscape) {
+    #welcome-section {
+        padding: 28vh 0 32vh 0;
+    }
+    #projects-section {
+        padding: 3vh 0 8vh 0;
+    }
+    #contacts-section {
+        padding: 27vh 0;
+    }
+}
